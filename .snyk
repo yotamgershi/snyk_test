@@ -1,0 +1,15 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore:
+  # Add any vulnerabilities you want to ignore here
+  # Example:
+  # 'npm:lodash:20180130':
+  #   - '*':
+  #       reason: 'No fix available yet'
+  #       expires: 2024-12-31T00:00:00.000Z
+patch:
+  # Add any patches here if needed
+  # Example:
+  # 'npm:lodash:20180130':
+  #   - path > to > package:json:
+  #       patched: '2024-01-01T00:00:00.000Z' 

@@ -1,0 +1,31 @@
+# Snyk configuration file
+# This file configures Snyk CLI behavior
+
+# Test settings
+test:
+  # Severity threshold for failing the build
+  severity-threshold: high
+  
+  # Fail on any vulnerabilities
+  fail-on: all
+  
+  # Include dev dependencies in scan
+  dev: true
+  
+  # Scan for license issues
+  scan-all-unmanaged: false
+
+# Monitor settings
+monitor:
+  # Auto-detect package manager
+  package-manager: auto
+  
+  # Include dev dependencies
+  dev: true
+
+# General settings
+# Set organization ID if you have one
+# org: your-org-id
+
+# Set project name
+# project-name: snyk_test 
